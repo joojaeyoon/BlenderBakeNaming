@@ -36,7 +36,7 @@ class ObjectBakeNamingPanel(bpy.types.Panel):
         layout.operator("object.name_high", text="Name '_high'")
         layout.separator()
         export_box = layout.box()
-        export_box.label(text="Export Selected to FBX")
+        export_box.label(text="Export Objects to FBX")
         export_box.label(text="Path:")
         export_box.prop(context.scene, "fbx_export_path", text="")
         export_box.operator("object.export_low_mesh", text="Export Low Mesh")
