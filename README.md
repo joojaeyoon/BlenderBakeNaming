@@ -9,6 +9,11 @@ A Blender addon that allows you to append "_low" or "_high" to the names of 3D o
 - Append '_high': Adds "_high" to the name of the selected object(s).
 - Export Named Meshes to FBX: Exports the objects with name "_low" or "_high" to an FBX file. The export path can be specified by the user.
 
+- Duplicate selected objects with name "_low" or "_high"
+![duplicate](img/duplicate.gif)
+
+- Sort collections Low and High
+![sort](img/sort.gif)
 
 ## Installation and Usage
 
